@@ -18,10 +18,13 @@ body {
 }
 
 .jumbotron {
+  color: #fff;
   text-align: center;
   margin-right: 20px;
   margin-left: 20px;
   height: 400px;
+  background-image: url('testImage3.png');
+  background-size: cover;
 }
 
 .btn-main {
