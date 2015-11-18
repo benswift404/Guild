@@ -8,14 +8,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">GUILD</a>
+      <%= link_to 'GUILD', root_path, class: 'navbar-brand' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#">About <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Posts</a></li>
+        <li><%= link_to 'Posts', posts_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Log in</a></li>
