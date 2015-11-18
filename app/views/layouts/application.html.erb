@@ -8,8 +8,10 @@
 </head>
 <body>
 
-<p class="notice"><%= notice %></p>
+<% if notice %>
 
+  <p class="alert alert-success alert-dismissible alert_main"><%= notice %></p>
+<% end %>
 <%= render 'layouts/navigation' %>
 <%= yield %>
 <%= render 'layouts/footer' %>
